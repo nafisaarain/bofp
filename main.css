@@ -1,0 +1,126 @@
+body{
+    background-color:white;
+}
+
+/*NEXT:
+Instagram page: hover captions/hover links?
+*/
+
+nav{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    text-decoration:none;
+    font-size:20px;
+    font-family: "Avenir Next";
+    color: white;
+    padding: 15px 50px;
+    
+}
+
+nav a:hover{
+    background-color: white;
+    color: gray;
+    
+}
+
+.current{
+    background-color: whitesmoke;
+    color: gray;
+}
+
+header h1{
+    font-family: Avenir Next Condensed;
+    color:gray;
+    font-size: 65px;
+    margin: 0;
+    text-align:center;
+    letter-spacing: 10px;
+    font-weight: 300;
+    padding:0;
+    
+}
+
+header h2{
+    font-family: Avenir Next;
+    margin: 0;
+    margin-bottom: 30px;
+    color: lightgray;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding:0;
+    
+}
+
+#home .container{
+    margin:0;
+    width:100%;
+}
+
+#jumbotronImg{
+    width: 100%;
+}
+
+#aboutImg{
+    width:200px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.container.abt{
+    text-align: justify;
+    padding: 40px;
+}
+
+#bio{
+    width:95%;
+}
+
+.contactUs{
+    text-align: left;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    line-height: 4px;
+}
+
+.grid{
+    height:800px;
+    width:800px;
+    display:grid;
+    grid-template: 1fr 1fr 1fr / repeat(3, 1fr);
+    column-gap: normal;
+    margin: 40px 100px 40px 175px;
+}
+
+.grid img{
+    width: 250px;
+    height: 250px;
+}
+
+.container{
+    text-align:center;
+    margin:0;
+    font-family: Avenir Next;
+    text-decoration: none; 
+}
+
+.page{
+    padding: 40px;
+}
+
+footer{
+    background-color: gainsboro;
+    color: white;
+    font-size: 14px;
+    font-family: Avenir Next;
+    padding: 20px 0px 10px;
+    margin-top: 50px;
+    text-align:center;
+    width:100%;
+    line-height:10px;
+}
+
